@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php-mqtt/client": "^1.1",
+        "ext-json": "*"
+    },
+
+    "config": {
+        "platform": {
+            "ext-posix": "8.0"
+        }
+    }
+}

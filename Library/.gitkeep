@@ -1,0 +1,8 @@
+#! /usr/bin/env php
+<?php
+# ------------------------------------------------------------------------------------------ global
+namespace Maschinengeist\Services\Utilities\Mains\Netzfrequenzinfo;
+
+use Exception;
+use PhpMqtt\Client\MqttClient;
+use PhpMqtt\Client\ConnectionSettings;
