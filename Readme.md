@@ -141,7 +141,118 @@ If you are want to get more than one result, just use the `show` parameter
 to get this
 
 ```
-
+{
+   "results":{
+      "count":5,
+      "data":[
+         {
+            "name":"Blumenpark-Apotheke",
+            "kammer":"lakrlp",
+            "id":"21695",
+            "apo_id":"lakrlp21695",
+            "strasse":"Mainzer Str. 39",
+            "plz":"55411",
+            "ort":"Bingen",
+            "distanz":"1.53077718487",
+            "longitude":"7.9023325",
+            "latitude":"49.9687685",
+            "telefon":"06721\/16677",
+            "fax":"06721\/16678",
+            "email":[
+               
+            ],
+            "startdatum":"06.11.2023",
+            "startzeit":"08:30",
+            "enddatum":"07.11.2023",
+            "endzeit":"08:30"
+         },
+         {
+            "name":"Rheingau Apotheke",
+            "kammer":"lakh",
+            "id":"613",
+            "apo_id":"lakh613",
+            "strasse":"Winkeler Str. 68",
+            "plz":"65366",
+            "ort":"Geisenheim",
+            "distanz":"5.77215412308",
+            "longitude":"7.9700231",
+            "latitude":"49.9855233",
+            "telefon":"06722\/8119",
+            "fax":"06722\/8159",
+            "email":[
+               
+            ],
+            "startdatum":"06.11.2023",
+            "startzeit":"08:30",
+            "enddatum":"07.11.2023",
+            "endzeit":"08:30"
+         },
+         {
+            "name":"Neue Apotheke am Holzmarkt",
+            "kammer":"lakrlp",
+            "id":"22407",
+            "apo_id":"lakrlp22407",
+            "strasse":"Dessauer Str. 1",
+            "plz":"55545",
+            "ort":"Bad Kreuznach",
+            "distanz":"14.91321926018",
+            "longitude":"7.85358",
+            "latitude":"49.848",
+            "telefon":"0671\/28418 o.365558",
+            "fax":"0671\/36558",
+            "email":[
+               
+            ],
+            "startdatum":"06.11.2023",
+            "startzeit":"08:30",
+            "enddatum":"07.11.2023",
+            "endzeit":"08:30"
+         },
+         {
+            "name":"Apotheke Steidle",
+            "kammer":"lakrlp",
+            "id":"45033",
+            "apo_id":"lakrlp45033",
+            "strasse":"Mainzer Str. 9",
+            "plz":"55262",
+            "ort":"Heidesheim",
+            "distanz":"16.20374271145",
+            "longitude":"8.1147048",
+            "latitude":"49.9952679",
+            "telefon":"06132\/4353850",
+            "fax":"06132\/43538515",
+            "email":[
+               
+            ],
+            "startdatum":"06.11.2023",
+            "startzeit":"08:30",
+            "enddatum":"07.11.2023",
+            "endzeit":"08:30"
+         },
+         {
+            "name":"Rathaus-Apotheke",
+            "kammer":"lakrlp",
+            "id":"22302",
+            "apo_id":"lakrlp22302",
+            "strasse":"Weedengasse 3",
+            "plz":"55291",
+            "ort":"Saulheim",
+            "distanz":"21.96228939772",
+            "longitude":"8.1500973",
+            "latitude":"49.876097",
+            "telefon":"06732\/61660",
+            "fax":"06732\/61676",
+            "email":[
+               
+            ],
+            "startdatum":"06.11.2023",
+            "startzeit":"08:30",
+            "enddatum":"07.11.2023",
+            "endzeit":"08:30"
+         }
+      ]
+   }
+}
 ```
 
 
