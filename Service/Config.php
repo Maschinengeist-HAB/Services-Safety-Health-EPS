@@ -180,7 +180,7 @@ class Config {
      * @return string Regex for extract the current token from the token containing file
      */
     public static function getTokenRegEx() : string {
-        return (string) "!randomToken\s*=\s*'(\w+)'!";
+        return "!randomToken\s*=\s*'(\w+)'!";
     }
 
 
