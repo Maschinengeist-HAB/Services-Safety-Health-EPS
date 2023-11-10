@@ -7,7 +7,7 @@ class Config {
      * @return string Current service version
      */
     public static function getVersion() : string {
-        return '1.0.0';
+        return '1.0.1';
     }
 
     /**
