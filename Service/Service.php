@@ -219,7 +219,7 @@ function get_current_eps(Array $parameters) : array|string {
         Config::getEpsSearchUri(),
         ($parameters['latitude']  ?? Config::getDefaultLatitude()),
         ($parameters['longitude'] ?? Config::getDefaultLongitude()),
-        $token_matches[1],
+        urlencode($token_matches[1]),
     );
 
     if (Config::getVerbose()) {

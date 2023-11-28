@@ -7,7 +7,7 @@ class Config {
      * @return string Current service version
      */
     public static function getVersion() : string {
-        return '1.0.0';
+        return '1.0.2';
     }
 
     /**
@@ -80,7 +80,7 @@ class Config {
     /**
      * MQTT keep alive flag
      * Can be set via MQTT_KEEP_ALIVE
-     * This setting tries hard to guess what you want (i.e. on, off, TRUE, False, 1, 0 will be mostly doing what
+     * This setting tries hard to guess what you want (i.e. on, off, TRUE, False, 1, 0) will be mostly doing what
      * you expect, but in the end, it will be defaulting to true, if not guessing what to do.
      * @return bool defaults to TRUE
      */
@@ -138,7 +138,7 @@ class Config {
      * Can be set via EPS_URI environment variable
      * @return string defaults to https://www.aponet.de
      * @throws \ErrorException if EPS_URI is set but empty
-     * @throws \ErrorException if EPS_URI is set but does not look like an URI
+     * @throws \ErrorException if EPS_URI is set but does not look like a URI
      */
     public static function getEpsBaseUri() : string {
 
@@ -180,7 +180,7 @@ class Config {
      * @return string Regex for extract the current token from the token containing file
      */
     public static function getTokenRegEx() : string {
-        return (string) "!randomToken\s*=\s*'(\w+)'!";
+        return "!randomToken\s*=\s*'(.+?)'!";
     }
 
 
@@ -189,7 +189,7 @@ class Config {
      * Can be set via DEFAULT_LATITUDE environment variable
      * @return float 51.9117
      * @throws \ErrorException if DEFAULT_LATITUDE is set but empty
-     * @throws \ErrorException if DEFAULT_LATITUDE is set but does not look like an URI
+     * @throws \ErrorException if DEFAULT_LATITUDE is set but does not look like a URI
      */
     public static function getDefaultLatitude() : float {
 

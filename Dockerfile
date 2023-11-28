@@ -8,6 +8,10 @@ COPY Service /opt/Service
 COPY Library /opt/Library
 ENV VERBOSE=false
 
+RUN docker-php-ext-configure pcntl --enable-pcntl \
+  && docker-php-ext-install \
+    pcntl
+
 VOLUME [ "/opt/Service" ]
 WORKDIR "/opt/Service/"
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer

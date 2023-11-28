@@ -1,4 +1,4 @@
-# Services::Safety::Healt::EPS
+# Services::Safety::Health::EPS
 MQTT Gateway to the german emergency pharmacy service (EPS, Notdienstsuche)
 
 ## Service description
