@@ -7,7 +7,7 @@ class Config {
      * @return string Current service version
      */
     public static function getVersion() : string {
-        return '1.0.1';
+        return '1.0.2';
     }
 
     /**
@@ -180,7 +180,7 @@ class Config {
      * @return string Regex for extract the current token from the token containing file
      */
     public static function getTokenRegEx() : string {
-        return "!randomToken\s*=\s*'(\w+)'!";
+        return "!randomToken\s*=\s*'(.+?)'!";
     }
 
 
