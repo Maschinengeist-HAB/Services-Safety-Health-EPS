@@ -6,7 +6,8 @@
 
     "config": {
         "platform": {
-            "ext-posix": "8.0"
+            "ext-posix": "8.0",
+            "ext-pcntl": "8.0"
         }
     }
 }
